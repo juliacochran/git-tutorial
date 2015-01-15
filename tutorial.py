@@ -8,17 +8,18 @@ class Tutorial:
 		print("I am function two.")
 
 	def function_three(self):
-		print("I am function three.")
+		print("I am function three_lol.")
 
 	def function_four(self):
-		print("I am function four.")
+		print("This is so cool!")
 
-	def function_five(self):
-		print("I am function five.")
+
 
 	def group_function(self):
 		print("everybody change me.")
 		print("but I like you how you are")
+
+	print("I don't think I can commit. . .")
 
 	def PlayBattleShip():
 		from random import randint
