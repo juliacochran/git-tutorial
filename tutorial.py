@@ -19,3 +19,7 @@ class Tutorial:
 	def group_function(self):
 		print("everybody change me.")
 		print("but I like you how you are")
+
+if __name__ == '__main__':
+	T = Tutorial()
+	T.function_one()
