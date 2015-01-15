@@ -19,10 +19,19 @@ class Tutorial:
 	def group_function(self):
 		print("everybody change me.")
 		print("but I like you how you are")
+<<<<<<< HEAD
 		print("Seriously though Sublime, STOP CLOSING MY BRACKETS")
 		print("It feels a bit close to rape. . .")
 		print("I don't-need no-satisfaction!!")
 		print("I don't think I can commit. . .")
+=======
+
+    print("Seriously though Sublime, STOP CLOSING MY BRACKETS")
+    print("It feels a bit close to rape. . .")
+    print("I don't-need no-satisfaction!!")
+	print("I don't think I can commit. . .")
+>>>>>>> FETCH_HEAD
+
 
 	def PlayBattleShip():
 		from random import randint
@@ -83,5 +92,7 @@ class Tutorial:
 		            if turn == 4:
 		                print "Game Over"
 		                break
-		        # Print (turn + 1) here!
 		        print_board(board)
+if __name__ == '__main__':
+	T = Tutorial()
+	T.function_one()
