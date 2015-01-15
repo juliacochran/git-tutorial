@@ -5,7 +5,7 @@ class Tutorial:
 		print("asdf.")
 
 	def function_two(self):
-		print("I am function two.")
+		print("Let's see if I can make a conflict...")
 
 	def function_three(self):
 		print("I am function three_lol.")
@@ -19,11 +19,14 @@ class Tutorial:
 	def group_function(self):
 		print("everybody change me.")
 		print("but I like you how you are")
-
+    print("Seriously though Sublime, STOP CLOSING MY BRACKETS")
+    print("It feels a bit close to rape. . .")
+    print("I don't-need no-satisfaction!!")
 	print("I don't think I can commit. . .")
 
 	def PlayBattleShip():
 		from random import randint
+		
 
 		board = []
 
