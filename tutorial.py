@@ -2,10 +2,10 @@ class Tutorial:
 	""" Basic python class """
 
 	def function_one(self):
-		print("asdf.")
+		print("I'm going everywhere")
 
 	def function_two(self):
-		print("Let's see if I can make a conflict...")
+		print("I hope you're happy.")
 
 	def function_three(self):
 		print("I am function three_lol.")
@@ -14,7 +14,7 @@ class Tutorial:
 		print("This is so cool!")
 
 	def function_five(self):
-		print("I am function five.")
+		print("I am function unknown.")
 
 	def group_function(self):
 		print("everybody change me.")
