@@ -2,7 +2,7 @@ class Tutorial:
 	""" Basic python class """
 
 	def function_one(self):
-		print("I am function one.")
+		print("asdf.")
 
 	def function_two(self):
 		print("I am function two.")
