@@ -8,7 +8,7 @@ class Tutorial:
 		print("I hope you're happy.")
 
 	def function_three(self):
-		print("I am function three_lol.")
+		print("Goodbye function three")
 
 	def function_four(self):
 		print("This is so cool!")
@@ -17,7 +17,7 @@ class Tutorial:
 		print("I am function unknown.")
 
 	def group_function(self):
-		print("everybody change me.")
+		print("i changed it")
 		print("but I like you how you are")
 		print("Seriously though Sublime, STOP CLOSING MY BRACKETS")
 		print("It feels a bit close to rape. . .")
