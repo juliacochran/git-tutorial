@@ -11,7 +11,7 @@ class Tutorial:
 		print("I am function three_lol.")
 
 	def function_four(self):
-		print("I am function four.")
+		print("This is so cool!")
 
 
 
