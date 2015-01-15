@@ -13,7 +13,8 @@ class Tutorial:
 	def function_four(self):
 		print("This is so cool!")
 
-
+	def function_five(self):
+		print("I am function five.")
 
 	def group_function(self):
 		print("everybody change me.")
