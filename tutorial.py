@@ -8,7 +8,7 @@ class Tutorial:
 		print("I hope you're happy.")
 
 	def function_three(self):
-		print("I am function three.")
+		print("I am function three_lol.")
 
 	def function_four(self):
 		print("This is so cool!")
