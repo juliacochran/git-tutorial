@@ -5,7 +5,7 @@ class Tutorial:
 		print("asdf.")
 
 	def function_two(self):
-		print("I am function two.")
+		print("Let's see if I can make a conflict...")
 
 	def function_three(self):
 		print("I am function three_lol.")
