@@ -19,3 +19,6 @@ class Tutorial:
 	def group_function(self):
 		print("everybody change me.")
 		print("but I like you how you are")
+
+	def cliff_is_awesome(self):
+		print("I love FOOD!!!!!")
