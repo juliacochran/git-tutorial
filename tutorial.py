@@ -26,6 +26,7 @@ class Tutorial:
 
 	def PlayBattleShip():
 		from random import randint
+		
 
 		board = []
 
