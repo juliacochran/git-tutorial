@@ -17,4 +17,4 @@ class Tutorial:
 		print("I am function five.")
 
 	def group_function(self):
-		print("everybody change me.")
+		print("new code for group function."
