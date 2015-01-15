@@ -20,11 +20,15 @@ class Tutorial:
 		print("everybody change me.")
 		print("but I like you how you are")
 
-
+    print("Seriously though Sublime, STOP CLOSING MY BRACKETS")
+    print("It feels a bit close to rape. . .")
+    print("I don't-need no-satisfaction!!")
+	print("I don't think I can commit. . .")
 
 
 	def PlayBattleShip():
 		from random import randint
+		
 
 		board = []
 
