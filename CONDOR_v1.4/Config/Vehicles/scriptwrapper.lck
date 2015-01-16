@@ -1,0 +1,2 @@
+This file is used as a lock to synchronize access to wrappers.
+It can be safely deleted as Analysis Server or TaskWorker will create it on the fly if it is needed again.

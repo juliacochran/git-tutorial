@@ -1,0 +1,14 @@
+﻿CONDOR is a set of scripts designed to evaluate the performance of rotorcraft, size them for a given mission, and develop data sets of rotorcraft performance figures across a large design space.
+
+•   rf.py is the actual RF method, used for sizing a single vehicle for a given mission.
+•   vehicle.py evaluates a single vehicle at a single weight point.
+•   BEMT.py contains the actual blade-element routines
+
+Dependencies:
+•   Python 2.7          http://www.python.org/
+•   numpy               http://www.numpy.org/
+•   SciPy               http://www.scipy.org/
+•   MatPlotLib          http://matplotlib.org/
+•   ConfigObj/ Validate https://pypi.python.org/pypi/configobj/5.0.6
+
+Please refer to the User's Manual for detailed usage information!

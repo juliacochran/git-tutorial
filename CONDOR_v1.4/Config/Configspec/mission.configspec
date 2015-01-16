@@ -1,0 +1,12 @@
+[__many__]
+Distance = float()
+Speed = float()
+ClimbSegment = boolean()
+ClimbRate = float()
+IdleSegment = float()
+IGE = boolean()
+Altitude = float()
+DeltaTemp = float()
+CrewWeight = float()
+PayloadWeight = float()
+MiscWeight = float()

@@ -1,0 +1,49 @@
+[Segment 1]
+Distance = .1 # nautical miles
+Speed = 1 # knots
+ClimbSegment = False
+Altitude = 00.0 # feet
+DeltaTemp = 0.0 # ISA +/-
+CrewWeight = 600 # pounds
+PayloadWeight = 0 # pounds
+MiscWeight = 0 # pounds
+
+[Segment 2]
+Distance = 235 # nautical miles
+Speed = 139.0 # knots
+ClimbSegment = False
+Altitude = 4000.0 # feet
+DeltaTemp = 0.0 # ISA +/-
+CrewWeight = 600 # pounds
+PayloadWeight = 0 # pounds
+MiscWeight = 0 # pounds
+
+[Segment 3]
+Distance = .166 # nautical miles
+Speed = 1.0 # knots
+ClimbSegment = False
+Altitude = 00.0 # feet
+DeltaTemp = 0.0 # ISA +/-
+CrewWeight = 600 #pounds
+PayloadWeight = 1260 #pounds
+MiscWeight = 0 #pounds
+
+[Segment 4]
+Distance = 235 # nautical miles
+Speed = 139.0 # knots
+ClimbSegment = False
+Altitude = 4000.0 # feet
+DeltaTemp = 0.0 # ISA +/-
+CrewWeight = 600 #pounds
+PayloadWeight = 1260 #pounds
+MiscWeight = 0 #pounds
+
+[Segment 5]
+Distance = .1 # nautical miles
+Speed = 1.0 # knots
+ClimbSegment = False
+Altitude = 00.0 # feet
+DeltaTemp = 0.0 # ISA +/-
+CrewWeight = 600 #pounds
+PayloadWeight = 1260 #pounds
+MiscWeight = 0 #pounds

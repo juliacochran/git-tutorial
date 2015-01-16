@@ -1,0 +1,84 @@
+[Veh_Name]
+name = string()
+
+[OEC]
+BaselineRange = float()
+BaselineHoverCeiling = float()
+BaselineSpeed = float()
+BaselineCost = float()
+BaselinePayload = float()
+
+[Main Rotor]
+NumRotors = integer()
+DiskLoading = float()
+NumBlades = integer()
+Solidity = float()
+TipSpeed = float()
+Kint = float()
+Kov = float()
+AirfoilFile = string()
+DragDivergenceMachNumber = float()
+TaperRatio = float()
+TipTwist = float()
+RootCutout = float()
+
+[Weights]
+BaselineGrossWeight = float()
+BaselineEmptyWeight = float()
+NumEngines = float()
+BaselineWeightPerEngine = float()
+BaselineDriveSystemWeightScalingFactor = float()
+StructureWeightTechImprovementFactor = float()
+EngineWeightTechImprovementFactor = float()
+DriveSystemWeightTechImprovementFactor = float()
+WingWeightTechImprovementFactor = float()
+UsefulLoad = float()
+
+[Powerplant]
+BaselineMRP = float()
+BaselineMCP = float()
+BaselineSFC = float()
+SFCTechImprovementFactor = float()
+TransmissionEfficiency = float()
+IdlePower = float()
+
+[Body]
+DragTechImprovementFactor = float()
+DownwashFactor = float()
+BaselineFlatPlate = float()
+
+[Antitorque]
+AntitorquePowerFactor = float()
+TailLength_RotorRadiusRatio = float()
+NumBladesTail = integer()
+TailSolidity = float()
+TailDiskLoading = float()
+TipSpeed = float()
+CD0 = float()
+SizingSpeed = float()
+
+
+[Simulation]
+TimeStep = float()
+MaxSteps = float()
+StartGW = float()
+GWMin = float()
+GWmax = float()
+GWTolerance = float()
+TrimAccuracyPercentage = float()
+numBladeElementSegments = integer()
+PowerCurveResolution = float()
+HoverCeilingMax = float()
+HoverCeilingMin = float()
+HoverCeilingTolerance = float()
+CT_SigmaTolerance = float()
+CT_SigmaCurveResolution = float()
+Curve_Altitude = float()
+
+[Engine Scaling]
+RequiredHoverHeight = float()
+DeltaTemp = float()
+CruiseAltitude = float()
+
+[Condition]
+CruiseAltitude = float()

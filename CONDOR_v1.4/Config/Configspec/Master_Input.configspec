@@ -1,0 +1,38 @@
+[Master Config Spec]
+
+[Code Selection]
+BEMT_Run = boolean()
+rf_Run = boolean()
+vehicle_Run = boolean()
+
+
+[Veh Mission Config]
+
+Aircraft_Config = string()
+Mission_Config = string()
+
+
+[BEMT Options]
+
+BEMT_debug = boolean()
+BEMT_animate = boolean()
+BEMT_plot = boolean()
+
+
+
+[RF Options]
+
+RF_debug = boolean()
+RF_writeOutput = boolean()
+
+
+
+[Vehicle Options]
+vehicle_showPower = boolean()
+Power_Breakdown = boolean()
+vehicle_debug = boolean()
+vehicle_debugFine = boolean()
+vehicle_size_compare = boolean()
+vehicle_Alt_Power_Curve = boolean()
+vehicle_CT_Sigma_Curve = boolean()
+Trim_Velocity_Plots = boolean()

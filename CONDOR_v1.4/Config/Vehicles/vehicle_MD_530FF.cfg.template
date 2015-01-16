@@ -1,0 +1,84 @@
+[Veh_Name]
+name = "MD_530FF"
+
+[Sizing Results]
+
+[Economics]
+
+[Performance]
+
+[Main Rotor]
+DiskLoading = 6.04 #5.6 # pounds per square foot
+NumRotors = 1 # number of rotors
+NumBlades = 5
+TipSpeed = 683 # ft/s
+Kint = 1.1 # rotor interference fraction
+Kov = 1.0 # rotor overlap fraction
+AirfoilFile = NACA_0015.c81
+DragDivergenceMachNumber = 0.785 # drag divergence mach number for the blade airfoil
+Solidity = 0.0653 # solidity ratio
+TaperRatio = 1 # ratio of tip to root taper
+TipTwist = -9.5 # twist of tip relative to root, degrees
+RootCutout = 0.15 # nondimensional root cutout, fraction of radius
+
+[Weights]
+BaselineGrossWeight = 3550
+BaselineEmptyWeight = 1591
+NumEngines = 1
+BaselineWeightPerEngine = 231
+BaselineDriveSystemWeightScalingFactor = 0.07
+StructureWeightTechImprovementFactor = 0.07
+EngineWeightTechImprovementFactor = 0.07
+DriveSystemWeightTechImprovementFactor = 0.07
+UsefulLoad = 1509 # Minimum enforced payload capacity, pounds
+
+[Powerplant]
+BaselineMRP = 650 # hp
+BaselineMCP = 550 # hp
+BaselineSFC = 0.592 # lbs/hp-hr
+SFCTechImprovementFactor = 0
+TransmissionEfficiency = 0.0 # transmission power losses (Power info for this helicopter built losses in)
+IdlePower = 50 # hp
+
+[Body]
+DragTechImprovementFactor = 0.0
+DownwashFactor = 0.08 # Downwash factor for rotor flow impinging on body
+BaselineFlatPlate = 10.0
+
+[Antitorque]
+AntitorquePowerFactor = 0.1 # proportion of total power that goes to antitorque
+TailLength_RotorRadiusRatio = 1.1
+NumBladesTail = 4
+TailSolidity = 0.0653
+TailDiskLoading = 10
+TipSpeed = 683 #ft/s
+CD0 = 0.0010
+SizingSpeed = 50 #knots
+
+[Simulation]
+TimeStep = 2000 # mission time step, minutes
+MaxSteps = 1000 # max number of simulation steps
+GWMin = 1000 # minimum gross weight search bound, pounds
+GWmax = 20000 # maximum gross weight search bound, pounds
+GWTolerance = 25 # size of bounds on the sizing solution, pounds
+TrimAccuracyPercentage = 0.1 # accuracy of the trim solution in percent
+numBladeElementSegments = 30 # number of segments in the radian and circumferential direction to divide the rotor disk into
+PowerCurveResolution = 5 # spacing of power curve steps, knots
+HoverCeilingMax = 30000 # maximum hover ceiling search bound, feet
+HoverCeilingMin = 0 # minimum hover ceiling search bound, feet
+HoverCeilingTolerance = 10 # size of bounds on the hover ceiling
+CT_SigmaTolerance = 10
+CT_SigmaCurveResolution = 10 # spacing of CT/Sigma curve steps, knots
+Curve_Altitude = 1710.0 # curve altitude, ft
+
+[Engine Scaling]
+RequiredHoverHeight = 0.0
+DeltaTemp = 15.0 # ISA +/- temperature Fahrenheit
+CruiseAltitude = 3000
+
+[Power Curve]
+
+[Condition]
+CruiseAltitude = 0
+
+[Trim Failure]

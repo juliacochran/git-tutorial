@@ -1,0 +1,35 @@
+[Master Config Spec]
+# Input read and Options Selection
+
+[Code Selection]
+
+BEMT_Run = False
+rf_Run = False
+vehicle_Run = True
+
+
+[Veh Mission Config]
+
+Aircraft_Config = "Config/Vehicles/vehicle_MD_530FF.cfg"
+Mission_Config = "Config/Missions/MD_530FF_Mission1.cfg"
+
+[BEMT Options]
+
+BEMT_debug = False
+BEMT_plot = False
+
+[RF Options]
+
+RF_debug = True
+RF_writeOutput = True
+
+[Vehicle Options]
+
+vehicle_showPower = True
+Power_Breakdown = True
+vehicle_debug = False
+vehicle_debugFine = False
+vehicle_size_compare = False
+vehicle_Alt_Power_Curve = False
+vehicle_CT_Sigma_Curve = False
+Trim_Velocity_Plots = False
